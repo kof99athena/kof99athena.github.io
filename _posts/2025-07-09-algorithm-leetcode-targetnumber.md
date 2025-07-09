@@ -1,7 +1,7 @@
 ---
 title: "[LeetCode - 494.Target Sum] DFS アルゴリズム"
 date: 2025-07-09 17:00:00 +09:00
-categories: [algorithm]
+categories: [Algorithm]
 tags:
   [
     LeetCode,
