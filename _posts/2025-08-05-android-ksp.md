@@ -41,7 +41,6 @@ class User_Impl : RoomEntity {
 | ビルド速度     | 遅い（全ソースを再処理）            | 速い（増分ビルドをサポート）             |
 | Kotlin対応      | 低い                                 | 高い                                    |
 | サポート状況   | 将来的に縮小される可能性がある      | JetBrainsが公式サポート中               |
-<br>
 
 ## ただし…HiltではまだKAPTが必要
 | アノテーション                            | 処理方法   | 説明                                                   |
@@ -50,8 +49,6 @@ class User_Impl : RoomEntity {
 | `@Inject`, `@Module`, `@Provides`       | ❌ KSP不可  | Dagger/Hiltの依存性注入関連（KAPT必須）                |
 | `@JsonClass(generateAdapter = true)`    | ✅ KSP対応  | MoshiではKSPを完全サポート                             |
 | `@Entity`, `@Dao`, `@Database`          | ✅ KSP推奨  | Roomの最新バージョンではKSPの使用がおすすめされる          |
-
-<br>
 
 ## Jetpack Composeのアノテーションは？
 以下のような@Composable, @Previewなどのアノテーションは<b>KSPで処理されません。</b>
