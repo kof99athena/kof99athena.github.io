@@ -25,14 +25,12 @@ class User_Impl : RoomEntity {
     // フィールドのマッピングやクエリサポートなど
 }
 ```
-<br>
 
 ## KSPはどこで使われているのか？
 - Room: @Entity, @Dao, @Database<br>
 - Moshi: @JsonClass(generateAdapter = true)<br>
 - AutoService: @AutoService によるSPI登録<br>
 - Anvil (Square): Hilt/Daggerに関連するDIのボイラープレート削減<br>
-<br>
 
 ## KAPTとKSPの違い
 | 項目           | KAPT                                | KSP                                   |
