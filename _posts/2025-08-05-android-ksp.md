@@ -1,5 +1,5 @@
 ---
-title: "[Android] KSPとは？　KSP vs KAPT"
+title: "[Android] KSPとは？KSP vs KAPT"
 date: 2025-08-05 08:00:00 +09:00
 categories: [Android]
 tags:
